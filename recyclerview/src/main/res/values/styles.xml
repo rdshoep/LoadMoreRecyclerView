@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadMoreRecyclerView">
+        <attr name="loadMoreType">
+            <flag name="progress" value="1" />
+            <flag name="progressWithText" value="2" />
+        </attr>
+
+        <attr name="autoLoad" format="boolean" />
+        <attr name="autoLoadLine" format="integer" />
+
+        <attr name="waitForLoadText" format="string|reference" />
+        <attr name="loadingText" format="string|reference" />
+        <attr name="loadEndText" format="string|reference" />
+    </declare-styleable>
+</resources>
