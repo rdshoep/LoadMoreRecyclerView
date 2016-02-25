@@ -32,7 +32,8 @@ proguard/
 captures/
 
 ### Gradle files
-gradle.properties
+#gradle.properties file contain some bintray config infomations
+#gradle.properties
 gradlew
 gradlew.bat
 gradle
